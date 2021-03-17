@@ -73,7 +73,7 @@ try:
         for row in new:
             output.writerow(row)
         f.close()
-    os.remove(PATH)
     print(f'AYCD/Kylin import formatted: {directory}')
 except:
     print('Something\'s not quite right, please try again and import a file from Dispurgen Export')
+time.sleep(10)
